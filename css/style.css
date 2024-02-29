@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+fieldset,
+legend {
+  border-width: 1px;
+  border-color: darkgoldenrod;
+  border-radius: 30px;
+}
+li {
+  margin-top: 10px;
+  padding-top: 10px;
+  display: inline-block;
+}
+table {
+  border: 10px;
+  margin: auto;
+}
+tr {
+  padding: 5px;
+  border: 1px solid green;
+}
+tr:hover {
+  background-color: blue;
+  color: red;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
